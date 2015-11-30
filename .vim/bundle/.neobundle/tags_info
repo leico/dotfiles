@@ -1,0 +1,5 @@
+neobundle.vim
+neocomplete.vim
+vim-arduino-syntax
+vim-processing
+vimproc
