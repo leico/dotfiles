@@ -1,0 +1,2017 @@
+# この viminfo ファイルは Vim 7.4 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# 最後の 検索パターン:
+~MSle0~/expandtab
+
+# 最後の Substitute 検索パターン:
+~MSle0&angle
+
+# 最後に置換された文字列:
+$Angle
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:w
+:tabnew ofApp.cpp
+:vsplit ofApp.cpp
+:tabnew ofApp.h
+:Nohlsearch
+:%s/angle/Angle/gc
+:%s/maxDepth/MaxDepth/gc
+:%s/minDepth/MinDepth/gc
+:vsplit ofApp.h
+:tabnew kinectCV.hpp
+:w'
+:%s/grayImage/cameraImage/gc
+:wq
+:open list.csv
+:q
+:1
+:tabnew .vimrc
+:wq!
+:tabnew .gvimrc
+:open .vimrc
+:cd ~
+:qall
+:tabnew Base.h
+::w
+:vsplit Mousedraw.hpp
+:tabnew Mousedraw.hpp
+:set expandtab
+:Lw
+:vsplit ofApp.cpp~
+:set noexpandtab
+:q!
+:vsplit 
+:split
+:a
+:open test.html
+:open test.hmtl
+:open! test.html
+:%s;</b>;</strong>;gc
+:%s/<//b>/<//strong>/gc
+:%s|</b>|</strong>|gc
+:%s/</b>/</strong>/gc
+:%s/<b>/<strong>/gc
+:%s/code/strong/gc
+:tabnew test.html
+:cd ~/
+:%s/h5/h4/gc
+:%s/h4/h3/gc
+:kk
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+? angle
+? maxDepth
+? minDepth
+? grayImage
+?/grayImage
+?/expandtab
+? </b>
+? <b>
+? code
+? h5
+? h4
+? \<h4\>
+? h1
+? h2
+? \<form\>
+? \s\+$
+? \r
+? "iamas","grad"
+? ,
+?/\r
+?/,
+?/gskn15
+?/rascal.15
+?/miyano15
+?/shma15
+?/kharada15
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	CHAR	0
+	inline const int  KinectCV :: Blur(void)           { return blur;   }
+	inline       void KinectCV :: Blur(const int _blur){ blur = _blur;  } 
+	
+""1	LINE	0
+	
+"2	LINE	0
+	  prefix
+"3	LINE	0
+	    binaryImage.blur(30);
+"4	LINE	0
+	
+"5	LINE	0
+	  
+"6	LINE	0
+	
+"7	LINE	0
+	  kinect.set
+"8	LINE	0
+	
+"9	LINE	0
+	
+"-	CHAR	0
+	 
+
+# ファイルマーク:
+'0  48  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+'1  177  24  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+'2  74  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+'3  116  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/008_kinectCV/src/kinectCV.hpp
+'4  48  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/007_ofxOsc/src/ofApp.cpp
+'5  6  17  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/006_contourFinder/src/ofApp.h
+'6  46  52  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/006_contourFinder/src/ofApp.cpp
+'7  797  0  ~/Downloads/data.tsv
+'8  9  49  ~/list.csv
+'9  43  4  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/005_Binarization/src/ofApp.cpp
+
+# ジャンプリスト (新しいものが先):
+-'  48  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+-'  48  1  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  137  86  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  177  24  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  176  4  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  240  53  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  262  8  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  261  17  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  260  9  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  109  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  32  11  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  179  23  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  113  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  1  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  74  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+-'  28  2  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+-'  34  16  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+-'  30  8  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+-'  32  27  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+-'  168  24  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  167  4  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  231  53  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  253  8  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  252  17  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  251  9  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  107  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  30  11  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  170  23  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+-'  111  0  ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/kinectCV.hpp
+	"	177	24
+	^	139	12
+	.	139	11
+	+	266	44
+	+	267	12
+	+	266	5
+	+	269	11
+	+	273	42
+	+	277	0
+	+	277	2
+	+	277	0
+	+	270	0
+	+	267	0
+	+	276	12
+	+	277	3
+	+	280	43
+	+	280	4
+	+	274	12
+	+	267	31
+	+	274	32
+	+	280	12
+	+	280	0
+	+	281	0
+	+	241	0
+	+	266	0
+	+	265	0
+	+	248	43
+	+	251	12
+	+	247	0
+	+	254	40
+	+	256	8
+	+	255	30
+	+	257	12
+	+	279	10
+	+	188	61
+	+	160	0
+	+	159	10
+	+	32	10
+	+	32	0
+	+	105	0
+	+	103	0
+	+	106	60
+	+	107	60
+	+	109	61
+	+	110	63
+	+	109	64
+	+	110	49
+	+	109	50
+	+	52	0
+	+	48	0
+	+	52	0
+	+	53	0
+	+	52	13
+	+	53	13
+	+	52	23
+	+	53	34
+	+	51	0
+	+	260	39
+	+	263	12
+	+	177	22
+	+	179	0
+	+	177	24
+	+	62	68
+	+	131	0
+	+	137	86
+	+	62	63
+	+	27	22
+	+	141	0
+	+	62	64
+	+	137	90
+	+	139	17
+	+	242	31
+	+	248	31
+	+	254	31
+	+	260	31
+	+	266	31
+	+	273	31
+	+	139	11
+	k	267	11
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.cpp
+	"	48	0
+	^	14	44
+	.	14	43
+	+	14	37
+	+	16	23
+	+	30	39
+	+	32	30
+	+	31	19
+	+	34	4
+	+	32	28
+	+	14	43
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/009_kinectCV_OSCTEST/src/ofApp.h
+	"	11	0
+	^	10	26
+	.	11	0
+	+	4	17
+	+	11	0
+	+	10	25
+	+	11	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/008_kinectCV/src/kinectCV.hpp
+	"	116	0
+	^	94	34
+	.	95	0
+	+	75	0
+	+	81	0
+	+	47	0
+	+	48	0
+	+	90	0
+	+	91	0
+	+	92	0
+	+	92	0
+	+	162	68
+	+	33	14
+	+	36	2
+	+	55	0
+	+	49	0
+	+	50	7
+	+	49	11
+	+	51	0
+	+	45	0
+	+	39	0
+	+	40	56
+	+	41	0
+	+	45	0
+	+	42	0
+	+	43	16
+	+	40	21
+	+	52	24
+	+	53	7
+	+	52	26
+	+	49	26
+	+	47	12
+	+	48	0
+	+	46	0
+	+	78	0
+	+	85	0
+	+	84	0
+	+	75	63
+	+	76	0
+	+	77	21
+	+	76	71
+	+	85	21
+	+	84	71
+	+	92	0
+	+	93	0
+	+	91	0
+	+	89	1
+	+	89	0
+	+	75	0
+	+	82	1
+	+	82	61
+	+	81	0
+	+	73	1
+	+	73	0
+	+	74	61
+	+	73	0
+	+	85	92
+	+	93	72
+	+	99	0
+	+	93	72
+	+	103	17
+	+	100	2
+	+	102	0
+	+	100	3
+	+	101	8
+	+	100	61
+	+	101	2
+	+	103	50
+	+	104	17
+	+	103	17
+	+	104	38
+	+	103	40
+	+	104	58
+	+	103	29
+	+	104	73
+	+	107	0
+	+	104	73
+	+	108	16
+	+	109	34
+	+	111	1
+	+	112	1
+	+	111	6
+	+	112	12
+	+	111	29
+	+	112	29
+	+	111	43
+	+	112	52
+	+	111	71
+	+	112	71
+	+	105	0
+	+	97	0
+	+	86	0
+	+	78	0
+	+	77	92
+	+	77	91
+	+	77	91
+	+	77	91
+	+	77	91
+	+	94	18
+	+	96	0
+	+	95	34
+	+	94	33
+	+	95	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/008_kinectCV/src/ofApp.h
+	"	14	0
+	^	24	20
+	.	24	19
+	+	14	1
+	+	4	1
+	+	8	2
+	+	22	2
+	+	26	0
+	+	25	1
+	+	11	0
+	+	10	21
+	+	24	19
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/008_kinectCV/src/ofApp.cpp
+	"	1	0
+	^	33	18
+	.	33	0
+	+	14	1
+	+	14	3
+	+	16	0
+	+	20	1
+	+	20	1
+	+	27	3
+	+	27	2
+	+	27	0
+	+	27	0
+	+	27	4
+	+	27	7
+	+	27	0
+	+	27	3
+	+	33	1
+	+	33	1
+	+	16	0
+	+	15	36
+	+	21	17
+	+	27	19
+	+	28	0
+	+	33	17
+	+	14	0
+	+	20	0
+	+	27	0
+	+	33	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/007_ofxOsc/src/ofApp.h
+	"	27	25
+	^	12	26
+	.	12	25
+	+	16	30
+	+	14	0
+	+	13	22
+	+	12	27
+	+	13	33
+	+	12	25
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/007_ofxOsc/src/ofApp.cpp
+	"	48	0
+	^	93	21
+	.	93	20
+	+	20	22
+	+	21	16
+	+	22	0
+	+	81	21
+	+	81	4
+	+	81	0
+	+	58	4
+	+	58	4
+	+	58	72
+	+	67	29
+	+	79	0
+	+	68	51
+	+	62	54
+	+	68	25
+	+	68	50
+	+	79	18
+	+	18	60
+	+	17	12
+	+	18	63
+	+	27	21
+	+	26	12
+	+	79	18
+	+	48	0
+	+	46	24
+	+	50	33
+	+	54	36
+	+	79	0
+	+	81	0
+	+	92	7
+	+	84	0
+	+	69	25
+	+	79	0
+	+	79	0
+	+	64	21
+	+	48	4
+	+	53	0
+	+	50	0
+	+	64	51
+	+	71	68
+	+	70	53
+	+	71	56
+	+	73	26
+	+	78	41
+	+	79	0
+	+	6	26
+	+	6	29
+	+	75	50
+	+	58	0
+	+	60	0
+	+	59	18
+	+	48	1
+	+	46	22
+	+	94	16
+	+	46	20
+	+	48	0
+	+	46	0
+	+	46	28
+	+	47	24
+	+	49	17
+	+	44	46
+	+	56	18
+	+	58	0
+	+	94	12
+	+	93	20
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/006_contourFinder/src/ofApp.cpp
+	"	46	61
+	^	46	62
+	.	47	0
+	+	46	57
+	+	62	51
+	+	63	47
+	+	62	2
+	+	64	0
+	+	63	17
+	+	46	62
+	+	47	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/006_contourFinder/src/ofApp.h
+	"	6	17
+	^	6	18
+	.	6	17
+	+	13	35
+	+	14	0
+	+	6	17
+
+> ~/Downloads/data.tsv
+	"	797	0
+
+> ~/list.csv
+	"	9	49
+	^	9	50
+	.	9	49
+	+	1	0
+	+	6	0
+	+	8	0
+	+	10	0
+	+	1	34
+	+	2	30
+	+	3	48
+	+	4	29
+	+	5	34
+	+	6	33
+	+	7	48
+	+	8	48
+	+	9	37
+	+	9	49
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/005_Binarization/src/ofApp.cpp
+	"	43	4
+	^	43	63
+	.	43	0
+	+	46	0
+	+	43	24
+	+	37	16
+	+	36	14
+	+	37	35
+	+	39	66
+	+	43	56
+	+	44	6
+	+	42	43
+	+	43	51
+	+	44	40
+	+	44	74
+	+	44	31
+	+	44	86
+	+	44	0
+	+	46	0
+	+	43	0
+	+	44	60
+	+	46	0
+	+	43	56
+	+	43	34
+	+	43	63
+	+	46	14
+	+	44	12
+	+	46	0
+	+	46	33
+	+	46	0
+	+	57	7
+	+	46	0
+	+	57	10
+	+	43	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/004_Blur/src/ofApp.cpp
+	"	1	0
+	^	37	20
+	.	37	19
+	+	37	21
+	+	50	30
+	+	51	34
+	+	37	19
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/004_contourFinder/src/ofApp.cpp
+	"	17	11
+	.	17	11
+	+	17	0
+	+	36	43
+	+	37	0
+	+	37	0
+	+	35	0
+	+	37	0
+	+	17	11
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/004_contourFinder/src/ofApp.h
+	"	27	32
+	.	11	0
+	+	11	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/003_openCV/src/ofApp.cpp
+	"	12	2
+	^	12	29
+	.	14	0
+	+	19	63
+	+	36	26
+	+	37	27
+	+	20	4
+	+	17	0
+	+	19	0
+	+	18	14
+	+	19	13
+	+	18	64
+	+	37	88
+	+	38	13
+	+	37	13
+	+	38	26
+	+	50	9
+	+	5	0
+	+	14	1
+	+	12	28
+	+	14	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/003_openCV/src/ofApp.h
+	"	25	27
+	^	9	2
+	.	8	0
+	+	13	31
+	+	5	18
+	+	11	0
+	+	12	18
+	+	9	2
+	+	8	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/002_kinect_serial/src/ofApp.cpp
+	"	15	3
+	^	15	4
+	.	15	4
+	+	14	36
+	+	15	4
+
+> ~/.gvimrc
+	"	1	0
+
+> ~/.vimrc
+	"	13	0
+	^	15	0
+	.	16	0
+	+	19	0
+	+	19	0
+	+	15	0
+	+	16	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/001_kinect/src/ofApp.h
+	"	12	13
+	^	12	14
+	.	12	13
+	+	4	20
+	+	8	17
+	+	12	13
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/001_kinect/src/ofApp.cpp
+	"	21	15
+	^	21	16
+	.	21	15
+	+	14	16
+	+	27	16
+	+	36	13
+	+	35	11
+	+	39	27
+	+	38	16
+	+	17	64
+	+	18	21
+	+	22	0
+	+	21	15
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/000_Empty/src/ofApp.cpp
+	"	17	0
+	^	9	0
+	.	17	0
+	+	6	0
+	+	9	0
+	+	10	0
+	+	6	0
+	+	17	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/002_TransFloor/000_Empty/src/ofApp.h
+	"	11	1
+	.	6	0
+	+	6	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/TransFloor/emptyExample/src/ofApp.cpp
+	"	24	0
+	^	11	17
+	.	29	0
+	+	13	23
+	+	13	9
+	+	13	7
+	+	13	15
+	+	13	15
+	+	24	20
+	+	24	0
+	+	9	20
+	+	12	0
+	+	24	0
+	+	28	7
+	+	28	13
+	+	28	11
+	+	28	32
+	+	28	26
+	+	28	42
+	+	28	28
+	+	28	35
+	+	28	29
+	+	28	1
+	+	28	1
+	+	28	1
+	+	17	25
+	+	15	0
+	+	13	1
+	+	19	16
+	+	19	15
+	+	12	0
+	+	8	24
+	+	9	0
+	+	7	0
+	+	6	30
+	+	7	0
+	+	11	16
+	+	13	0
+	+	19	0
+	+	24	0
+	+	28	0
+	+	28	0
+	+	29	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/TransFloor/emptyExample/src/ofApp.h
+	"	8	0
+	.	9	0
+	+	4	20
+	+	9	0
+	+	8	18
+	+	9	9
+	+	9	15
+	+	9	14
+	+	11	17
+	+	8	0
+	+	8	19
+	+	8	0
+	+	9	0
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/006_Interface/src/myclass.hpp
+	"	35	0
+	^	34	17
+	.	35	0
+	+	14	28
+	+	54	1
+	+	48	18
+	+	19	12
+	+	48	12
+	+	22	2
+	+	21	26
+	+	32	32
+	+	35	29
+	+	52	2
+	+	50	35
+	+	36	32
+	+	38	35
+	+	39	5
+	+	17	0
+	+	39	27
+	+	41	4
+	+	39	28
+	+	40	28
+	+	40	30
+	+	40	28
+	+	35	0
+	+	15	12
+	+	37	27
+	+	38	0
+	+	37	11
+	+	38	27
+	+	39	0
+	+	38	11
+	+	39	27
+	+	40	0
+	+	39	8
+	+	40	0
+	+	46	32
+	+	15	0
+	+	45	18
+	+	46	0
+	+	32	9
+	+	31	0
+	+	25	20
+	+	26	0
+	+	35	0
+	+	27	3
+	+	34	14
+	+	35	0
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/006_Interface/src/ofApp.cpp
+	"	1	0
+	^	24	12
+	.	24	11
+	+	31	3
+	+	31	0
+	+	33	0
+	+	32	0
+	+	39	10
+	+	39	0
+	+	17	12
+	+	24	10
+	+	31	10
+	+	17	8
+	+	15	0
+	+	39	0
+	+	24	11
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/006_Interface/src/ofApp.h
+	"	1	0
+	^	15	12
+	.	15	11
+	+	15	11
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/006_Interface/src/Base.h
+	"	21	39
+	^	21	40
+	.	21	39
+	+	19	25
+	+	18	27
+	+	19	28
+	+	21	27
+	+	20	43
+	+	19	39
+	+	18	39
+	+	21	39
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/005_Mousedraw2/src/Base.h
+	"	19	2
+	^	16	0
+	.	18	0
+	+	12	18
+	+	15	11
+	+	21	1
+	+	18	12
+	+	21	0
+	+	18	17
+	+	19	5
+	+	18	21
+	+	19	13
+	+	18	11
+	+	19	23
+	+	20	10
+	+	18	5
+	+	19	6
+	+	20	16
+	+	19	13
+	+	13	17
+	+	19	28
+	+	18	30
+	+	20	35
+	+	21	0
+	+	17	0
+	+	16	0
+	+	18	0
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/005_Mousedraw2/src/Mousedraw2.hpp
+	"	30	3
+	^	30	4
+	.	30	3
+	+	38	0
+	+	12	24
+	+	14	36
+	+	36	1
+	+	35	0
+	+	25	18
+	+	25	2
+	+	34	0
+	+	27	0
+	+	34	0
+	+	27	33
+	+	28	32
+	+	26	4
+	+	29	5
+	+	30	23
+	+	34	0
+	+	35	0
+	+	30	0
+	+	30	0
+	+	29	0
+	+	34	0
+	+	31	0
+	+	16	6
+	+	20	14
+	+	23	7
+	+	25	0
+	+	29	0
+	+	26	2
+	+	30	3
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/005_Mousedraw2/src/Mousedraw.hpp
+	"	30	19
+	^	16	8
+	.	16	7
+	+	22	0
+	+	16	0
+	+	22	0
+	+	17	0
+	+	16	9
+	+	21	7
+	+	16	7
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/005_Class/src/Mousedraw.hpp
+	"	16	1
+	^	19	8
+	.	19	0
+	+	12	19
+	+	14	16
+	+	52	1
+	+	52	0
+	+	14	17
+	+	15	0
+	+	51	0
+	+	21	19
+	+	22	0
+	+	22	0
+	+	28	20
+	+	29	0
+	+	31	3
+	+	33	18
+	+	34	0
+	+	36	3
+	+	38	32
+	+	39	0
+	+	41	3
+	+	40	2
+	+	43	0
+	+	45	26
+	+	44	0
+	+	46	0
+	+	49	0
+	+	19	0
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/005_Class/src/ofApp.cpp
+	"	101	8
+	^	101	19
+	.	101	18
+	+	16	1
+	+	19	1
+	+	35	0
+	+	27	0
+	+	28	1
+	+	31	1
+	+	61	1
+	+	64	0
+	+	62	1
+	+	80	1
+	+	88	1
+	+	20	13
+	+	21	0
+	+	32	13
+	+	33	0
+	+	65	11
+	+	89	18
+	+	101	18
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/005_Class/src/ofApp.h
+	"	1	7
+	^	17	15
+	.	17	14
+	+	12	4
+	+	18	0
+	+	12	2
+	+	15	0
+	+	7	22
+	+	17	14
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/004_Osc/src/ofApp.cpp
+	"	46	0
+	^	44	8
+	.	44	8
+	+	2	0
+	+	2	0
+	+	19	0
+	+	20	0
+	+	30	39
+	+	47	6
+	+	30	40
+	+	47	0
+	+	32	22
+	+	33	34
+	+	47	0
+	+	37	38
+	+	36	0
+	+	35	1
+	+	39	41
+	+	40	24
+	+	39	30
+	+	40	30
+	+	39	31
+	+	40	48
+	+	39	21
+	+	40	21
+	+	39	48
+	+	40	53
+	+	42	19
+	+	43	58
+	+	44	8
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/004_Osc/src/ofApp.cpp~
+	"	1	0
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/004_Osc/src/ofApp.h
+	"	15	26
+	^	15	27
+	.	15	26
+	+	17	0
+	+	15	20
+	+	4	0
+	+	4	0
+	+	15	26
+
+> ~/Library/Application Support/Firefox/Profiles/7sz7w13d.default/itsalltext/www.tumblr.com_edit_133335862751.363b2z1l.txt
+	"	47	0
+	^	61	0
+	.	49	0
+	+	1	0
+	+	20	0
+	+	49	0
+
+> ~/Library/Application Support/Firefox/Profiles/7sz7w13d.default/itsalltext/www.tumblr.com_blog_programmingscape_new_text.2c351w1c.txt
+	"	1	0
+	.	1	0
+	+	1	114
+	+	1	6
+	+	1	114
+	+	1	87
+	+	1	0
+	+	1	3
+	+	1	3
+	+	1	48
+	+	1	23
+	+	1	58
+	+	1	15
+	+	1	58
+	+	1	114
+	+	1	51
+	+	1	2
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	4
+	+	1	11
+	+	1	13
+	+	1	57
+	+	1	38
+	+	1	0
+	+	1	0
+	+	1	0
+	+	1	4
+	+	1	5
+	+	1	0
+	+	1	4
+	+	1	5
+	+	1	0
+	+	1	8
+	+	1	19
+	+	1	0
+	+	1	21
+	+	1	24
+	+	1	44
+	+	1	1
+	+	1	4
+	+	1	7
+	+	1	0
+	+	1	4
+	+	1	12
+	+	1	4
+	+	1	6
+	+	1	12
+	+	1	12
+	+	1	4
+	+	1	6
+	+	1	0
+
+> ~/Desktop/test/test/main.cpp
+	"	19	10
+	^	19	11
+	.	19	10
+	+	11	8
+	+	20	0
+	+	17	23
+	+	18	0
+	+	29	0
+	+	28	9
+	+	26	25
+	+	20	1
+	+	26	27
+	+	19	10
+
+> ~/pro/of_v0.8.4_osx_release/apps/myApps/002_Circle/src/ofApp.cpp
+	"	21	42
+	^	17	4
+	.	52	0
+	+	17	4
+	+	63	0
+	+	52	0
+
+> ~/.gitignore
+	"	48	0
+	.	1	0
+	+	1	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/TransFloor/emptyExample/.git/COMMIT_EDITMSG
+	"	1	11
+	^	1	12
+	.	1	12
+	+	3	0
+	+	1	12
+
+> ~/.gitconfig
+	"	9	1
+	.	9	0
+	+	9	0
+
+> ~/pro/of_v0.8.4_osx_release/PROJECT/TransFloor/emptyExample/.git/config
+	"	4	0
+
+> ~/Downloads/100309899948.sdx
+	"	1	0
+
+> ~/Desktop/transfloor/README.md
+	"	17	0
+
+> ~/test.html
+	"	24	0
+	^	109	86
+	.	109	85
+	+	75	0
+	+	76	0
+	+	79	3
+	+	80	81
+	+	81	5
+	+	86	2
+	+	87	0
+	+	86	4
+	+	88	0
+	+	93	0
+	+	88	0
+	+	94	0
+	+	93	4
+	+	96	5
+	+	101	33
+	+	101	4
+	+	102	1
+	+	103	1
+	+	105	1
+	+	103	187
+	+	107	0
+	+	104	0
+	+	106	0
+	+	107	0
+	+	112	0
+	+	112	0
+	+	115	0
+	+	80	0
+	+	113	0
+	+	115	0
+	+	19	75
+	+	26	19
+	+	19	89
+	+	26	80
+	+	33	28
+	+	40	40
+	+	43	57
+	+	56	127
+	+	63	9
+	+	80	65
+	+	87	114
+	+	95	81
+	+	103	72
+	+	104	71
+	+	105	64
+	+	106	66
+	+	25	0
+	+	22	0
+	+	26	0
+	+	25	0
+	+	22	94
+	+	22	0
+	+	23	74
+	+	21	0
+	+	24	0
+	+	22	11
+	+	29	0
+	+	33	0
+	+	29	0
+	+	28	0
+	+	31	0
+	+	32	1
+	+	29	84
+	+	23	52
+	+	30	53
+	+	38	0
+	+	36	0
+	+	35	0
+	+	39	0
+	+	38	0
+	+	36	84
+	+	49	0
+	+	48	0
+	+	46	0
+	+	45	0
+	+	48	0
+	+	46	88
+	+	22	88
+	+	29	88
+	+	36	88
+	+	74	0
+	+	71	0
+	+	70	0
+	+	74	0
+	+	74	0
+	+	71	84
+	+	83	0
+	+	83	88
+	+	86	0
+	+	83	0
+	+	90	0
+	+	93	0
+	+	90	85
+	+	98	0
+	+	101	0
+	+	100	0
+	+	98	85
+	+	109	0
+	+	112	0
+	+	109	85
+
+> ~/test.hmtl
+	"	1	0
+
+> ~/Downloads/eg2015/html/12/12-01-04.html
+	"	1	0
+
+> ~/Downloads/eg2015/html/08/08.html
+	"	1	0
+	.	1	0
+	+	13	0
+	+	14	1
+	+	23	2
+	+	23	0
+	+	16	37
+	+	16	37
+	+	16	47
+	+	16	60
+	+	16	33
+	+	16	55
+	+	16	33
+	+	16	33
+	+	16	63
+	+	16	36
+	+	16	64
+	+	16	62
+	+	16	71
+	+	16	33
+	+	16	60
+	+	16	33
+	+	16	60
+	+	23	0
+	+	23	0
+	+	15	0
+	+	16	0
+	+	23	4
+	+	13	0
+	+	23	5
+	+	23	6
+	+	23	5
+	+	23	15
+	+	23	34
+	+	23	5
+	+	23	4
+	+	23	5
+	+	23	5
+	+	30	2
+	+	30	2
+	+	30	47
+	+	30	47
+	+	30	47
+	+	30	87
+	+	35	0
+	+	35	0
+	+	37	5
+	+	38	118
+	+	1	0
+
+> ~/Desktop/IAMAS-GUEST_WPA2キーH270803.txt
+	"	1	0
+
+> ~/Downloads/eg2015/html/12/12-01-02.html
+	"	13	0
+
+> ~/htdocs/test.php
+	"	9	0
+	^	10	16
+	.	11	0
+	+	17	0
+	+	13	0
+	+	13	16
+	+	13	7
+	+	13	0
+	+	13	15
+	+	13	12
+	+	13	45
+	+	13	53
+	+	13	49
+	+	13	42
+	+	13	4
+	+	13	10
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	31
+	+	13	48
+	+	13	24
+	+	13	12
+	+	13	24
+	+	13	21
+	+	13	30
+	+	13	38
+	+	13	0
+	+	13	38
+	+	13	38
+	+	13	61
+	+	13	48
+	+	13	11
+	+	13	12
+	+	13	60
+	+	13	14
+	+	13	50
+	+	13	50
+	+	13	66
+	+	13	3
+	+	13	62
+	+	13	67
+	+	13	0
+	+	13	0
+	+	13	21
+	+	13	24
+	+	13	1
+	+	13	1
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	0
+	+	13	2
+	+	13	0
+	+	14	31
+	+	14	31
+	+	14	23
+	+	14	47
+	+	14	2
+	+	14	18
+	+	13	28
+	+	14	22
+	+	14	29
+	+	14	31
+	+	14	34
+	+	14	36
+	+	14	39
+	+	14	66
+	+	13	1
+	+	15	0
+	+	13	1
+	+	13	0
+	+	15	0
+	+	13	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	14	0
+	+	13	47
+	+	11	19
+	+	11	24
+	+	11	23
+	+	11	9
+	+	11	10
+	+	11	0
+	+	11	0
+	+	11	21
+	+	11	0
+	+	11	24
+	+	11	0
+	+	10	5
+	+	11	0
+	+	13	0
+	+	11	6
+	+	11	0
+	+	11	0
+	+	11	0
+	+	11	1
+	+	11	7
+	+	11	22
+	+	10	15
+	+	11	0
+
+> ~/htdocs/js/main.js
+	"	3	49
+	^	3	52
+	.	3	49
+	+	183	32
+	+	185	19
+	+	186	16
+	+	183	0
+	+	179	20
+	+	176	17
+	+	175	17
+	+	176	18
+	+	175	18
+	+	179	14
+	+	178	0
+	+	179	27
+	+	183	10
+	+	186	29
+	+	187	52
+	+	228	22
+	+	187	47
+	+	188	13
+	+	190	24
+	+	192	4
+	+	190	63
+	+	189	39
+	+	190	64
+	+	191	5
+	+	193	12
+	+	196	4
+	+	194	0
+	+	196	0
+	+	194	30
+	+	195	64
+	+	196	6
+	+	197	5
+	+	228	0
+	+	198	0
+	+	228	0
+	+	199	27
+	+	200	57
+	+	186	27
+	+	204	41
+	+	205	51
+	+	205	51
+	+	206	6
+	+	207	5
+	+	208	12
+	+	227	9
+	+	208	23
+	+	228	0
+	+	227	4
+	+	227	50
+	+	227	16
+	+	227	0
+	+	227	0
+	+	227	0
+	+	215	8
+	+	224	12
+	+	214	14
+	+	224	26
+	+	213	23
+	+	224	47
+	+	215	8
+	+	216	18
+	+	220	6
+	+	217	41
+	+	214	9
+	+	217	56
+	+	215	0
+	+	211	41
+	+	217	26
+	+	211	10
+	+	224	24
+	+	217	52
+	+	218	61
+	+	219	7
+	+	220	8
+	+	223	6
+	+	224	12
+	+	222	11
+	+	226	16
+	+	227	0
+	+	209	0
+	+	131	31
+	+	132	5
+	+	133	5
+	+	132	6
+	+	134	7
+	+	133	6
+	+	132	6
+	+	134	8
+	+	135	6
+	+	136	0
+	+	158	35
+	+	167	1
+	+	172	2
+	+	173	8
+	+	174	0
+	+	10	16
+	+	78	17
+	+	131	45
+	+	6	0
+	+	3	49
+
+> ~/htdocs/php/projects.php
+	"	1	0
+
+> ~/htdocs/php/issues.php
+	"	31	0
+	^	14	73
+	.	14	72
+	+	5	0
+	+	5	21
+	+	8	21
+	+	18	0
+	+	18	0
+	+	14	52
+	+	15	15
+	+	14	12
+	+	15	28
+	+	14	0
+	+	17	7
+	+	18	0
+	+	5	21
+	+	6	8
+	+	5	8
+	+	12	0
+	+	10	22
+	+	11	41
+	+	14	72
+
+> ~/Downloads/map
+	"	677898	0
+
+> ~/htdocs/global.php
+	"	48	0
+	^	77	23
+	.	3	0
+	+	43	0
+	+	63	32
+	+	73	0
+	+	56	0
+	+	33	58
+	+	34	18
+	+	35	8
+	+	33	70
+	+	35	10
+	+	36	3
+	+	39	0
+	+	38	14
+	+	55	0
+	+	51	71
+	+	54	0
+	+	52	41
+	+	53	9
+	+	51	6
+	+	50	0
+	+	46	23
+	+	49	0
+	+	49	3
+	+	48	9
+	+	49	0
+	+	73	2
+	+	73	0
+	+	72	37
+	+	73	0
+	+	67	0
+	+	66	0
+	+	96	0
+	+	62	0
+	+	77	24
+	+	95	0
+	+	95	0
+	+	80	42
+	+	81	0
+	+	80	8
+	+	95	0
+	+	81	2
+	+	82	0
+	+	86	19
+	+	87	19
+	+	88	22
+	+	89	5
+	+	88	5
+	+	89	43
+	+	95	0
+	+	89	43
+	+	90	0
+	+	89	4
+	+	90	18
+	+	89	15
+	+	88	15
+	+	94	78
+	+	95	0
+	+	94	7
+	+	79	55
+	+	80	31
+	+	83	30
+	+	79	3
+	+	80	30
+	+	79	46
+	+	83	30
+	+	38	16
+	+	47	18
+	+	51	58
+	+	67	58
+	+	25	19
+	+	25	15
+	+	25	1
+	+	25	16
+	+	25	44
+	+	28	20
+	+	29	27
+	+	28	20
+	+	30	10
+	+	31	0
+	+	79	64
+	+	34	11
+	+	47	11
+	+	56	10
+	+	72	39
+	+	94	36
+	+	88	22
+	+	25	0
+	+	9	17
+	+	14	42
+	+	24	0
+	+	15	10
+	+	20	21
+	+	23	0
+	+	21	9
+	+	16	14
+	+	21	31
+	+	22	9
+	+	26	28
+	+	88	35
+	+	77	22
+	+	3	0
+
+> ~/htdocs/projects.php
+	"	17	16
+	^	17	5
+	.	17	4
+	+	1	5
+	+	20	0
+	+	3	25
+	+	18	0
+	+	8	51
+	+	9	25
+	+	8	61
+	+	5	18
+	+	7	16
+	+	8	0
+	+	9	27
+	+	12	1
+	+	18	0
+	+	11	7
+	+	18	0
+	+	16	58
+	+	16	59
+	+	16	59
+	+	14	21
+	+	16	59
+	+	18	0
+	+	17	0
+	+	9	25
+	+	17	19
+	+	16	25
+	+	16	0
+	+	17	14
+	+	17	6
+	+	16	32
+	+	17	4
+
+> ~/htdocs/issues.php
+	"	20	27
+	^	20	28
+	.	20	27
+	+	1	5
+	+	2	0
+	+	3	26
+	+	5	34
+	+	6	34
+	+	22	0
+	+	5	22
+	+	6	25
+	+	10	25
+	+	14	25
+	+	16	0
+	+	12	0
+	+	8	15
+	+	10	7
+	+	14	7
+	+	11	21
+	+	15	64
+	+	16	0
+	+	13	0
+	+	11	0
+	+	10	22
+	+	14	22
+	+	18	63
+	+	21	0
+	+	20	27
+
+> ~/Downloads/interpreter
+	"	874	0
+
+> ~/Untitled.html
+	"	7	11
+	^	2	0
+	.	1	90
+	+	1	90
+
+> ~/Desktop/ml_backup/iphone-sg@ml.iamas.ac.jp
+	"	1	0
+	^	2	0
+	.	1	9
+	+	55	0
+	+	52	0
+	+	1	0
+	+	54	0
+	+	55	0
+	+	1	9
+
+> ~/Desktop/ml_backup/gangu-info@ml.iamas.ac.jp
+	"	1	0
+	.	9	0
+	+	1	0
+	+	2	0
+	+	1	6
+	+	9	9
+	+	9	0
+	+	9	0
+	+	2	0
+	+	9	0
+
+> ~/Desktop/ml_backup/gangu@ml.iamas.ac.jp
+	"	1	0
+	^	15	0
+	.	14	0
+	+	1	9
+	+	3	0
+	+	26	19
+	+	18	0
+	+	2	0
+	+	1	0
+	+	3	0
+	+	16	9
+	+	14	0
+
+> ~/Desktop/ml_backup/gangu2@ml.iamas.ac.jp
+	"	1	0
+	^	52	16
+	.	30	0
+	+	1	9
+	+	25	0
+	+	30	0
+
+> ~/Desktop/ml_backup/infos@ml.iamas.ac.jp
+	"	1	0
+	.	42	0
+	+	24	0
+	+	42	0
+
+> ~/Desktop/ml_backup/apply@ml.iamas.ac.jp
+	"	1	0
+	^	1	9
+	.	7	0
+	+	1	0
+	+	2	0
+	+	1	6
+	+	7	0
+	+	1	6
+	+	7	0
+
+> ~/Desktop/ml_backup/gic-iamas-core@ml.iamas.ac.jp
+	"	12	21
+	^	12	22
+	.	9	0
+	+	9	0
+
+> ~/Desktop/ml_backup/reglecdit@ml.iamas.ac.jp
+	"	3	0
+	^	3	0
+	.	2	0
+	+	2	0
+
+> ~/Desktop/ml_backup/sj-iamas@ml.iamas.ac.jp
+	"	1	0
+	^	254	0
+	.	129	0
+	+	1	0
+	+	2	0
+	+	1	6
+	+	129	0
+
+> ~/Desktop/ml_backup/gr-staff@ml.iamas.ac.jp
+	"	124	25
+	^	124	26
+	.	45	0
+	+	2	0
+	+	45	0
+
+> ~/Desktop/ml_backup/gr-students@ml.iamas.ac.jp
+	"	77	19
+	^	131	26
+	.	52	0
+	+	52	0
+
+> ~/Desktop/ml_backup/gr-system@ml.iamas.ac.jp
+	"	48	0
+	^	154	0
+	.	18	0
+	+	18	0
+
+> ~/Desktop/ml_backup/next-net@ml.iamas.ac.jp
+	"	23	0
+	^	23	0
+	.	14	0
+	+	14	0
+
+> ~/Desktop/ml_backup/nissho-iamas@ml.iamas.ac.jp
+	"	12	0
+	^	23	0
+	.	14	0
+	+	14	0
+
+> ~/Desktop/ml_backup/st3@ml.iamas.ac.jp
+	"	42	0
+	^	43	0
+	.	23	0
+	+	23	0
+
+> ~/Desktop/ml_backup/ccna@ml.iamas.ac.jp
+	"	15	20
+	^	15	21
+	.	10	0
+	+	9	6
+	+	7	0
+	+	10	0
+
+> ~/Desktop/ml_backup/gifu@ml.iamas.ac.jp
+	"	13	21
+	^	17	22
+	.	11	0
+	+	10	6
+	+	8	22
+	+	11	0
+
+> ~/Desktop/ml_backup/seeds@ml.iamas.ac.jp
+	"	5	0
+	^	5	0
+	.	2	0
+	+	1	9
+	+	2	0
+
+> ~/Desktop/ml_backup/area-f-core@ml.iamas.ac.jp
+	"	28	8
+	^	13	0
+	.	15	0
+	+	14	9
+	+	1	9
+	+	2	0
+	+	15	0
+
+> ~/Desktop/ml_backup/area-f@ml.iamas.ac.jp
+	"	55	8
+	^	73	9
+	.	37	0
+	+	1	9
+	+	2	0
+	+	37	0
+
+> ~/Desktop/ml_backup/iamas2013@ml.iamas.ac.jp
+	"	130	17
+	^	135	23
+	.	33	0
+	+	31	6
+	+	1	9
+	+	2	0
+	+	31	0
+	+	29	23
+	+	32	0
+	+	33	0
+
+> ~/Desktop/ml_backup/st3-core@ml.iamas.ac.jp
+	"	19	19
+	^	19	20
+	.	12	0
+	+	11	6
+	+	9	20
+	+	12	0
+
+> ~/Desktop/ml_backup/ste-core@ml.iamas.ac.jp
+	"	13	0
+	^	13	0
+	.	7	0
+	+	6	6
+	+	4	20
+	+	7	0
+
+> ~/Desktop/ml_backup/ste@ml.iamas.ac.jp
+	"	84	0
+	^	84	0
+	.	36	0
+	+	35	6
+	+	2	0
+	+	36	0
+
+> ~/Desktop/ml_backup/area35_136@ml.iamas.ac.jp
+	"	35	16
+	^	35	17
+	.	20	0
+	+	19	6
+	+	1	9
+	+	2	0
+	+	20	0
+
+> ~/Desktop/ml_backup/ac-kyoumu@ml.iamas.ac.jp
+	"	48	0
+	.	154	0
+	+	15	6
+	+	1	9
+	+	2	0
+	+	13	0
+	+	16	0
+	+	154	0
+
+> ~/Desktop/ml_backup/gr-kyoumu@ml.iamas.ac.jp
+	"	19	0
+	^	19	0
+	.	18	0
+	+	20	6
+	+	1	9
+	+	2	0
+	+	17	20
+	+	21	0
+	+	18	0
+
+> ~/Desktop/ml_backup/sir@ml.iamas.ac.jp
+	"	32	0
+	^	32	0
+	.	18	0
+	+	17	6
+	+	1	9
+	+	2	0
+	+	15	23
+	+	18	0
+
+> ~/Desktop/ml_backup/st2@ml.iamas.ac.jp
+	"	56	25
+	^	61	26
+	.	33	0
+	+	32	6
+	+	1	9
+	+	2	0
+	+	33	0
+
+> ~/Desktop/ml_backup/gr-2012core@ml.iamas.ac.jp
+	"	40	0
+	^	40	0
+	.	22	0
+	+	2	0
+	+	21	9
+	+	22	0
+
+> ~/Desktop/ml_backup/f_labo-core@ml.iamas.ac.jp
+	"	21	32
+	^	21	33
+	.	13	0
+	+	12	9
+	+	1	9
+	+	2	0
+	+	10	33
+	+	13	0
+
+> ~/Desktop/ml_backup/renkei-2012@ml.iamas.ac.jp
+	"	18	15
+	^	11	0
+	.	13	0
+	+	12	9
+	+	10	16
+	+	13	0
+
+> ~/Desktop/ml_backup/nissha-adp@ml.iamas.ac.jp
+	"	30	17
+	^	16	0
+	.	18	0
+	+	17	9
+	+	15	0
+	+	18	0
+
+> ~/Desktop/ml_backup/gr-project@ml.iamas.ac.jp
+	"	154	16
+	^	154	17
+	.	18	0
+	+	17	6
+	+	15	0
+	+	18	0
