@@ -1,0 +1,9 @@
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+[user]
+	name = leico
+	email = yoshitaka_12@iamas.ac.jp
+[core]
+	excludesfile = ~/.gitignore
