@@ -1,1 +1,1 @@
-/Users/leico_system/dotfiles/.vim
+/Users/leico/dotfiles/.vim
