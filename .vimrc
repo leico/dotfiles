@@ -7,6 +7,7 @@ if has('gui_macvim')
   set softtabstop=2
   set autoindent
   set smartindent
+  set number
 
   "---------------------------
   " Start Neobundle Settings.
