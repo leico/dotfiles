@@ -35,6 +35,10 @@ Session.vim
 .netrwhist
 *~
 
+## dein.vim
+nvim/dein/state_nvim.vim
+nvim/dein/cache_nvim
+
 
 ### OSX ###
 .DS_Store
