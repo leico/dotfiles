@@ -1,21 +1,3 @@
-set expandtab
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
-set autoindent
-set smartindent
-set number
-
-set guifont=Ricty:h14
-
-set showtabline=2
-
-set termguicolors
-
-colorscheme desert
-
-set transparency=15
-
 
 "dein Scripts-----------------------------
 if &compatible
@@ -52,3 +34,24 @@ syntax enable
 "endif
 
 "End dein Scripts-------------------------
+
+
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
+set autoindent
+set smartindent
+set number
+
+set guifont=Ricty:h14
+
+set showtabline=2
+
+set termguicolors
+
+colorscheme desert
+
+set transparency=15
+
+
