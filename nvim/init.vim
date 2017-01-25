@@ -8,12 +8,17 @@ endif
 set runtimepath+=$HOME/.config/nvim/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/Users/leico_studio/dotfiles/nvim/dein')
-  call dein#begin('/Users/leico_studio/dotfiles/nvim/dein')
+if dein#load_state($HOME . '/dotfiles/nvim/dein')
+
+  " XDG base direcory compartible
+  let g:dein#cache_directory = $HOME . '/.cache/dein'
+
+  " dein begin
+  call dein#begin($HOME . '/dotfiles/nvim/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/Users/leico_studio/dotfiles/nvim/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add($HOME . '/dotfiles/nvim/dein/repos/github.com/Shougo/dein.vim')
 
   " Add or remove your plugins here:
   call dein#add('Shougo/neosnippet.vim')
@@ -35,6 +40,28 @@ syntax enable
 
 "End dein Scripts-------------------------
 
+"neosnippet configuration-----------------
+" Plugin key-mappings.
+" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+smap <C-k>     <Plug>(neosnippet_expand_or_jump)
+xmap <C-k>     <Plug>(neosnippet_expand_target)
+
+" SuperTab like snippets behavior.
+" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+imap <C-k>     <Plug>(neosnippet_expand_or_jump)
+"imap <expr><TAB>
+" \ pumvisible() ? "\<C-n>" :
+" \ neosnippet#expandable_or_jumpable() ?
+" \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+" For conceal markers.
+if has('conceal')
+  set conceallevel=2 concealcursor=niv
+endif
+"neosnippet configuration-----------------
 
 set expandtab
 set tabstop=2
