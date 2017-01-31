@@ -8,21 +8,24 @@ endif
 set runtimepath+=$HOME/.config/nvim/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state($HOME . '/dotfiles/nvim/dein')
+if dein#load_state($HOME . '/.config/nvim/dein')
 
   " XDG base direcory compartible
   let g:dein#cache_directory = $HOME . '/.cache/dein'
 
   " dein begin
-  call dein#begin($HOME . '/dotfiles/nvim/dein')
+  call dein#begin($HOME . '/.config/nvim/dein')
 
-  " Let dein manage dein
-  " Required:
-  call dein#add($HOME . '/dotfiles/nvim/dein/repos/github.com/Shougo/dein.vim')
+ " プラグインリストを収めた TOML ファイル
+ " 予め TOML ファイル（後述）を用意しておく
+ let s:toml_dir  = $HOME . '/.config/nvim/dein/toml' 
+ let s:toml      = s:toml_dir . '/dein.toml'
+ let s:lazy_toml = s:toml_dir . '/dein_lazy.toml'
 
-  " Add or remove your plugins here:
-  call dein#add('Shougo/neosnippet.vim')
-  call dein#add('Shougo/neosnippet-snippets')
+ " TOML を読み込み、キャッシュしておく
+ call dein#load_toml(s:toml,      {'lazy': 0})
+ call dein#load_toml(s:lazy_toml, {'lazy': 1})
+
 
   " Required:
   call dein#end()
@@ -34,34 +37,12 @@ filetype plugin indent on
 syntax enable
 
 " If you want to install not installed plugins on startup.
-"if dein#check_install()
-"  call dein#install()
-"endif
+#if dein#check_install()
+#  call dein#install()
+#endif
 
 "End dein Scripts-------------------------
 
-"neosnippet configuration-----------------
-" Plugin key-mappings.
-" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-smap <C-k>     <Plug>(neosnippet_expand_or_jump)
-xmap <C-k>     <Plug>(neosnippet_expand_target)
-
-" SuperTab like snippets behavior.
-" Note: It must be "imap" and "smap".  It uses <Plug> mappings.
-imap <C-k>     <Plug>(neosnippet_expand_or_jump)
-"imap <expr><TAB>
-" \ pumvisible() ? "\<C-n>" :
-" \ neosnippet#expandable_or_jumpable() ?
-" \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
-\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-
-" For conceal markers.
-if has('conceal')
-  set conceallevel=2 concealcursor=niv
-endif
-"neosnippet configuration-----------------
 
 set expandtab
 set tabstop=2
