@@ -4,4 +4,7 @@
 repo = 'Shougo/dein.vim'
 
 [[plugins]]
-repo = 'autodate.vim'
+repo = 'Shougo/deoplete.nvim'
+
+[[plugins]]
+repo = 'leico/autodate.vim'
