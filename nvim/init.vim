@@ -52,8 +52,6 @@ set autoindent
 set smartindent
 set number
 
-set conceallevel=0
-
 "set guifont=Ricty:h14
 
 set showtabline=2
@@ -62,3 +60,5 @@ set termguicolors
 
 colorscheme desert
 
+"markdown concealing disable
+let g:vim_markdown_conceal = 0
