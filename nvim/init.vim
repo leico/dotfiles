@@ -52,6 +52,8 @@ set autoindent
 set smartindent
 set number
 
+set conceallevel=0
+
 "set guifont=Ricty:h14
 
 set showtabline=2
