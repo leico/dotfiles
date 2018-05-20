@@ -8,3 +8,5 @@ repo = 'Shougo/deoplete.nvim'
 
 [[plugins]]
 repo = 'leico/autodate.vim'
+
+
