@@ -6,6 +6,9 @@ export XDG_CACHE_HOME="$HOME/.cache"
 #VimR command
 export PATH="$PATH:/Applications/VimR.app/Contents/Resources"
 
+#Homebrew command
+export PATH="$PATH:/Applications/Homebrew/bin"
+
 
 #rbenv command
 export PATH="$PATH:/Applications/Ruby/rbenv/bin"
