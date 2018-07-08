@@ -6,10 +6,23 @@
 repo = 'Shougo/deoplete.nvim'
 hook_add = '''
 let g:deoplete#enable_at_startup   = 1
-let g:deoplete#auto_complete_delay = 0
+
 inoremap <expr><tab> pumvisible() ? "\<C-n>" :
         \ neosnippet#expandable_or_jumpable() ?
         \    "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>"
+
+inoremap <expr><S-Tab> pumvisible() ? deoplete#close_popup() : "\<S-Tab>"
+
+
+'''
+
+
+
+hook_post_source = '''
+call deoplete#custom#option({
+\    'auto_complete_delay' : 0
+\  , 'min_pattern_length'  : 1
+\  })
 '''
 on_i = 1
 
@@ -19,7 +32,10 @@ on_i = 1
 
 [[plugins]]
 repo = 'Shougo/neosnippet.vim'
-depends = ['neosnippet-snippets', 'context_filetype.vim']
+depends = [
+    'neosnippet-snippets'
+  , 'context_filetype.vim'
+]
 on_i = 1
 hook_source = '''
 " Plugin key-mappings.
@@ -64,3 +80,13 @@ repo = 'Shougo/neosnippet-snippets'
 repo = 'Shougo/context_filetype.vim'
 
 
+
+# neosnippet-cpp----------------
+[[plugins]]
+repo = 'leico/neosnippet-cpp'
+on_ft   = ['c', 'cpp']
+depends = ['neosnippet.vim']
+hook_source = '''
+let g:neosnippet#snippets_directory = '~/.config/nvim/dein/repos/github.com/leico/neosnippet-cpp/snippets'
+let g:neosnippet#disable_runtime_snippets = { 'c' : 1, 'cpp' : 1 }
+'''
