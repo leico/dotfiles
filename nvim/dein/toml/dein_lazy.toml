@@ -7,13 +7,7 @@ repo = 'Shougo/deoplete.nvim'
 hook_add = '''
 let g:deoplete#enable_at_startup   = 1
 
-inoremap <expr><tab> pumvisible() ? "\<C-n>" :
-        \ neosnippet#expandable_or_jumpable() ?
-        \    "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>"
-
-inoremap <expr><S-Tab> pumvisible() ? deoplete#close_popup() : "\<S-Tab>"
-
-
+inoremap  <expr><S-TAB> pumvisible() ? "\<C-n>" : "\<S-TAB>"
 '''
 
 
@@ -46,17 +40,21 @@ hook_source = '''
 
 " SuperTab like snippets behavior.
 " Note: It must be "imap" and "smap".  It uses <Plug> mappings.
+"imap <expr><TAB>
+" \ pumvisible() ? "\<C-n>" :
+" \ neosnippet#expandable_or_jumpable() ?
+" \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+"smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+" \ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+
+imap  <expr><S-TAB>
+ \ pumvisible()                        ? "\<C-n>" : 
+ \ neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : "\<S-TAB>"
+smap  <expr><S-TAB>
+ \ neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : "\<S-TAB>"
+
 imap <expr><TAB>
- \ pumvisible() ? "\<C-n>" :
- \ neosnippet#expandable_or_jumpable() ?
- \    "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
-
-imap <expr><CR>
-\ (pumvisible() && neosnippet#expandable()) ? "\<Plug>(neosnippet_expand_or_jump)" : "\<CR>"
-
-
-smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
-\ "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
+\ (pumvisible() && neosnippet#expandable()) ? "\<Plug>(neosnippet_expand_or_jump)" : "\<TAB>"
 
 " For conceal markers.
 "if has('conceal')
@@ -87,6 +85,8 @@ repo = 'leico/neosnippet-cpp'
 on_ft   = ['c', 'cpp']
 depends = ['neosnippet.vim']
 hook_source = '''
-let g:neosnippet#snippets_directory = '~/.config/nvim/dein/repos/github.com/leico/neosnippet-cpp/snippets'
-let g:neosnippet#disable_runtime_snippets = { 'c' : 1, 'cpp' : 1 }
+let g:neosnippet#snippets_directory        = '~/.config/nvim/dein/repos/github.com/leico/neosnippet-cpp/snippets'
+let g:neosnippet#disable_runtime_snippets  = { 'c' : 1, 'cpp' : 1 }
+let g:neosnippet#enable_auto_clear_markers = 0
 '''
+
