@@ -88,6 +88,7 @@ hook_source = '''
 let g:neosnippet#snippets_directory        = '~/.config/nvim/dein/repos/github.com/leico/neosnippet-cpp/snippets'
 let g:neosnippet#disable_runtime_snippets  = { 'c' : 1, 'cpp' : 1 }
 let g:neosnippet#enable_auto_clear_markers = 0
+
 '''
 
 
