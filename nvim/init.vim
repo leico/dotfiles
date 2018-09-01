@@ -62,3 +62,7 @@ colorscheme desert
 
 "markdown concealing disable
 let g:vim_markdown_conceal = 0
+
+"python path setting
+let g:python3_host_prog = $PYENV_ROOT . '/shims/python3'
+let g:python2_host_porg = $PYENV_ROOT . '/shims/python2'

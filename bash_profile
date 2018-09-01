@@ -14,3 +14,7 @@ export HOMEBREW_CACHE="$XDG_CACHE_HOME/Homebrew"
 #rbenv command
 export RBENV_ROOT=/Applications/Homebrew/opt/Ruby
 eval "$(rbenv init -)"
+
+#pyenv command
+export PYENV_ROOT=/Applications/Homebrew/opt/Python
+eval "$(pyenv init -)"
