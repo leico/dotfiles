@@ -16,5 +16,5 @@ export RBENV_ROOT=/Applications/Homebrew/opt/Ruby
 eval "$(rbenv init -)"
 
 #pyenv command
-export PYENV_ROOT=/Applications/Homebrew/opt/Python
+export PYENV_ROOT=/Applications/Homebrew/opt/pyenv/Python
 eval "$(pyenv init -)"

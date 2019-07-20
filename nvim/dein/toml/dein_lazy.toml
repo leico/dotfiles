@@ -90,8 +90,8 @@ hook_source = '''
 
 let l:snippets_directory =  ['~/.config/nvim/dein/repos/github.com/leico/neosnippet-cpp/snippets']
 
-if( exists('g:neosnippet#snippets_directory') )
-  let g:neosnippet#snippets_directory = g:neosnippet#snippets_directory + l:snippets_directory
+if( exists('g:neosnippet#snippets_directory') && g:neosnippet#snippets_directory != '' )
+  let g:neosnippet#snippets_directory = g:neosnippet#snippets_directory . ',' . l:snippets_directory
 else
   let g:neosnippet#snippets_directory = l:snippets_directory
 endif
@@ -118,7 +118,22 @@ let g:neosnippet#disable_runtime_snippets  = { 'c' : 1, 'cpp' : 1 }
 let g:neosnippet#enable_auto_clear_markers = 0
 '''
 
+# neosnippet-html----------------
+[[plugins]]
+repo = 'leico/neosnippet-html'
+on_ft   = ['html']
+hook_source = '''
 
+let l:snippets_directory = ['~/.config/nvim/dein/repos/github.com/leico/neosnippet-html/snippets']
+if( exists('g:neosnippet#snippets_directory') )
+  let g:neosnippet#snippets_directory = g:neosnippet#snippets_directory + l:snippets_directory
+else
+  let g:neosnippet#snippets_directory = l:snippets_directory
+endif
+
+let g:neosnippet#disable_runtime_snippets  = { 'html' : 1 }
+let g:neosnippet#enable_auto_clear_markers = 0
+'''
 
 
 [[plugins]]
