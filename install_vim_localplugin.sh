@@ -3,8 +3,8 @@
 localplugindir="$HOME/dotfiles/vim_localplugin";
 swiftdir="${localplugindir}/apple-swift-syntax";
 
-if [-e $localplugindir ]; then
-  rm -rf localplugindir
+if [ -e $localplugindir ]; then
+  rm -rf $localplugindir
 fi
 
 mkdir $localplugindir

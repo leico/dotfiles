@@ -6,4 +6,7 @@ repo = 'Shougo/dein.vim'
 [[plugins]]
 repo = 'leico/autodate.vim'
 
+# [local] apple-swift-syntax-----
+[[plugins]]
+repo   = '~/dotfiles/vim_localplugin/apple-swift-syntax'
 

@@ -154,8 +154,3 @@ let g:vim_markdown_frontmatter      = 1
 repo = 'godlygeek/tabular'
 on_i = 1
 
-
-# [local] apple-swift-syntax-----
-[[plugins]]
-repo   = '~/dotfiles/vim_loalplugin/apple-swift-syntax'
-on_ft  = ['swift']
