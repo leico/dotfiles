@@ -1,6 +1,6 @@
 #!/bin/sh
 
-localplugindir="$HOME/dotfiles/vim_loalplugin";
+localplugindir="$HOME/dotfiles/vim_localplugin";
 swiftdir="${localplugindir}/apple-swift-syntax";
 
 if [-e $localplugindir ]; then
