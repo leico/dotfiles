@@ -7,7 +7,7 @@ export XDG_CACHE_HOME="$HOME/.cache"
 export PATH="$PATH:/Applications/VimR.app/Contents/Resources"
 
 #Homebrew command
-export PATH="$PATH:/Applications/Homebrew/bin"
+export PATH="/Applications/Homebrew/bin:$PATH"
 export HOMEBREW_CACHE="$XDG_CACHE_HOME/Homebrew"
 
 

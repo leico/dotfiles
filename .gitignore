@@ -3,3 +3,5 @@ nvim/dein/.cache
 nvim/dein/cache_nvim
 nvim/dein/state_nvim.vim
 
+## vim_localplugin
+vim_localplugin

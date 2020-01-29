@@ -1,7 +1,7 @@
 #!/bin/sh
 
 deindir="$HOME/.config/nvim/dein";
-reposdir="$HOME/.config/nvim/dein/repos";
+reposdir="${deindir}/repos";
 
 if [ -e $reposdir ]; then
   rm -rf $reposdir
