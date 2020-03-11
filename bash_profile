@@ -1,4 +1,6 @@
-platform='unknown'
+
+
+#get OS name
 unamestr=`uname`
 
 
