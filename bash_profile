@@ -12,12 +12,20 @@ export XDG_CACHE_HOME="$HOME/.cache"
 
 
 if [[ "$unamestr" == 'Darwin' ]]; then  #for macOS setting
-  #VimR command
+
+  #append VimR command PATH
   export PATH="$PATH:/Applications/VimR.app/Contents/Resources"
 
-  #Homebrew command
+  #prepend Homebrew PATH and set chache direcotry
   export PATH="/Applications/Homebrew/bin:$PATH"
   export HOMEBREW_CACHE="$XDG_CACHE_HOME/Homebrew"
+
+
+  #prepend gettext PATH
+  export PATH="/Applications/Homebrew/opt/gettext/bin:$PATH"
+
+  #prepend openssl PATH
+  export PATH="/Applications/Homebrew/opt/openssl/bin:$PATH"
 
   #for ruby-build, change openSSL version
   export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
