@@ -1,4 +1,8 @@
 
+GREEN="\[\e[1;32m\]"
+PURPLE="\[\e[1;34m\]"
+COLOR_RESET="\[\e[0m\]"
+export PS1="${GREEN}\u ${PURPLE}\w ${GREEN}$ ${COLOR_RESET}"
 
 #get OS name
 unamestr=`uname`
@@ -18,8 +22,8 @@ if [[ "$unamestr" == 'Darwin' ]]; then  #for macOS setting
 
   #prepend Homebrew PATH and set chache direcotry
   export PATH="/Applications/Homebrew/bin:$PATH"
+  export PATH="/Applications/Homebrew/sbin:$PATH"
   export HOMEBREW_CACHE="$XDG_CACHE_HOME/Homebrew"
-
 
   #prepend gettext PATH
   export PATH="/Applications/Homebrew/opt/gettext/bin:$PATH"
@@ -41,6 +45,10 @@ if [[ "$unamestr" == 'Darwin' ]]; then  #for macOS setting
   #nodenv command
   export NODENV_ROOT=/Applications/Homebrew/opt/nodenv/Node
   eval "$(nodenv init -)"
+
+  #phpenv command
+  export PHPENV_ROOT=/Applications/Homebrew/opt/phpenv
+  eval "$(phpenv init -)"
 
 elif [[ "$unamestr" == 'Linux' ]]; then #for Linux setting
 
