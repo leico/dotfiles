@@ -1,8 +1,8 @@
-
+YELLOW="\[\e[1;33m\]"
 GREEN="\[\e[1;32m\]"
 PURPLE="\[\e[1;34m\]"
 COLOR_RESET="\[\e[0m\]"
-export PS1="${GREEN}\u ${PURPLE}\w ${GREEN}$ ${COLOR_RESET}"
+export PS1="${YELLOW}\h${GREEN}@\u ${PURPLE}\w ${GREEN}$ ${COLOR_RESET}"
 
 #get OS name
 unamestr=`uname`
