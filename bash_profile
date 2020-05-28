@@ -52,6 +52,29 @@ if [[ "$unamestr" == 'Darwin' ]]; then  #for macOS setting
 
 elif [[ "$unamestr" == 'Linux' ]]; then #for Linux setting
 
+  # if running bash
+  if [ -n "$BASH_VERSION" ]; then
+    # include .bashrc if it exists
+    if [ -f "$HOME/.bashrc" ]; then
+      . "$HOME/.bashrc"
+    fi
+  fi
+	
+  # set PATH so it includes user's private bin if it exists
+  if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+  fi
+
+  # set PATH so it includes user's private bin if it exists
+  if [ -d "$HOME/.local/bin" ] ; then
+    PATH="$HOME/.local/bin:$PATH"
+  fi
+
+  #anyenv command
+  export PATH="$HOME/.anyenv/bin:$PATH"
+  eval "$(anyenv init -)"
+
+
   #nodenv command
   export PATH="$HOME/.nodenv/bin:$PATH"
   eval "$(nodenv init -)"
