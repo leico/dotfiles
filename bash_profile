@@ -31,6 +31,14 @@ if [[ "$unamestr" == 'Darwin' ]]; then  #for macOS setting
   #prepend openssl PATH
   export PATH="/Applications/Homebrew/opt/openssl/bin:$PATH"
 
+  #append phpenv path
+  export PATH="$PATH:/Applications/Homebrew/opt/phpenv/bin"
+  
+  #prepend openjdk path
+  export PATH="/Applications/Homebrew/opt/openjdk/bin:$PATH"
+
+
+
   #for ruby-build, change openSSL version
   export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
 
@@ -45,10 +53,6 @@ if [[ "$unamestr" == 'Darwin' ]]; then  #for macOS setting
   #nodenv command
   export NODENV_ROOT=/Applications/Homebrew/opt/nodenv/Node
   eval "$(nodenv init -)"
-
-  #append phpenv path
-  export PATH="$PATH:/Applications/Homebrew/opt/phpenv/bin"
-
 
   #phpenv command
   export PHPENV_ROOT=/Applications/Homebrew/opt/phpenv
