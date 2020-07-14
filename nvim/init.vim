@@ -69,10 +69,10 @@ let b:os_type = system('uname')
 if b:os_type == "Darwin\n"
 
   "python path setting
-  "let g:python3_host_prog = $PYENV_ROOT . '/shims/python3'
-  "let g:python2_host_prog = $PYENV_ROOT . '/shims/python2'
-  let g:python3_host_prog = '/Applications/Homebrew/opt/python3/bin/python3'
-  let g:python2_host_prog = '/Applications/Homebrew/opt/python2/bin/python2'
+  let g:python3_host_prog = $PYENV_ROOT . '/shims/python3'
+  let g:python2_host_prog = $PYENV_ROOT . '/shims/python2'
+  "let g:python3_host_prog = '/Applications/Homebrew/opt/python3/bin/python3'
+  "let g:python2_host_prog = '/Applications/Homebrew/opt/python2/bin/python2'
 
 endif 
 
