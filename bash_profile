@@ -46,6 +46,10 @@ if [[ "$unamestr" == 'Darwin' ]]; then  #for macOS setting
   export NODENV_ROOT=/Applications/Homebrew/opt/nodenv/Node
   eval "$(nodenv init -)"
 
+  #append phpenv path
+  export PATH="$PATH:/Applications/Homebrew/opt/phpenv/bin"
+
+
   #phpenv command
   export PHPENV_ROOT=/Applications/Homebrew/opt/phpenv
   eval "$(phpenv init -)"
