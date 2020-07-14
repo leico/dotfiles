@@ -1,8 +1,19 @@
-YELLOW="\[\e[1;33m\]"
-GREEN="\[\e[1;32m\]"
-PURPLE="\[\e[1;34m\]"
-COLOR_RESET="\[\e[0m\]"
-export PS1="${YELLOW}\h${GREEN}@\u ${PURPLE}\w ${GREEN}$ ${COLOR_RESET}"
+
+# if running bash
+if [ -n "$BASH_VERSION" ]; then
+  YELLOW="\[\e[1;33m\]"
+  GREEN="\[\e[1;32m\]"
+  PURPLE="\[\e[1;34m\]"
+  COLOR_RESET="\[\e[0m\]"
+  export PS1="${YELLOW}\h${GREEN}@\u ${PURPLE}\w ${GREEN}$ ${COLOR_RESET}"
+
+elif [ -n "$ZSH_VERSION" ]; then
+
+  PROMPT='%K{002}%m%k%K{003}@%n%k %D %T
+%K{007}%F{000}%~%f%k
+$ '
+
+fi	
 
 #get OS name
 unamestr=`uname`
