@@ -17,3 +17,6 @@ fi
 
 #import nvim settings
 ln -sf ~/dotfiles/nvim ~/.config/nvim 
+
+#zsh Setting
+ln -sf ~/dotfiles/bash_profile ~/.zprofile
